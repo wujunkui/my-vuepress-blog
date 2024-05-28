@@ -9,9 +9,9 @@ heroText: 胡思乱想实验室
 heroFullScreen: false
 tagline: 你可以在这里放置你的口号与标语
 projects:
-  - icon: project
-    name: 项目名称
-    desc: 项目详细描述
+  - icon: link
+    name: 啥都有导航
+    desc: 这个导航要啥有啥
     link: https://你的项目链接
 
   - icon: link
@@ -39,11 +39,6 @@ projects:
     desc: 自定义详细介绍
     link: https://你的自定义链接
 
-footer: 备案号
+footer: <a href="https://beian.miit.gov.cn">蜀ICP备2024073486号-1</a>
 ---
 
-这是一个博客主页的案例。
-
-要使用此布局，你应该在页面前端设置 `layout: BlogHome` 和 `home: true`。
-
-相关配置文档请见 [博客主页](https://theme-hope.vuejs.press/zh/guide/blog/home.html)。

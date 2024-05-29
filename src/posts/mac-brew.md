@@ -1,5 +1,9 @@
 ---
+author: wujunkui
+date: 2024-05-28
 category:
+    - mac
+tag: 
     - mac
 ---
 

@@ -1,13 +1,13 @@
-import { hopeTheme } from "vuepress-theme-hope";
-import navbar from "./navbar.js";
-import sidebar from "./sidebar.js";
+import { hopeTheme } from "vuepress-theme-hope"
+import navbar from "./navbar.js"
+import sidebar from "./sidebar.js"
 
 export default hopeTheme({
   hostname: "https://hslx.site",
 
   author: {
     name: "wujunkui",
-    url: "https://github.com/wujunkui"
+    url: "https://github.com/wujunkui",
   },
 
   iconAssets: "fontawesome-with-brands",
@@ -28,9 +28,12 @@ export default hopeTheme({
   footer: "默认页脚",
   displayFooter: true,
 
+  // 是否显示编辑链接
+  editLink: false,
+
   // 博客相关
   blog: {
-    description: "一个立志要成为全栈工程师的初级程序员",
+    description: "成为一个有趣的人。",
     intro: "/intro.html",
     medias: {
       // Baidu: "https://example.com",
@@ -64,10 +67,6 @@ export default hopeTheme({
       // Whatsapp: "https://example.com",
       // Youtube: "https://example.com",
       // Zhihu: "https://example.com",
-      VuePressThemeHope: [
-        "https://theme-hope.vuejs.press",
-        "https://theme-hope-assets.vuejs.press/logo.svg",
-      ],
     },
   },
 
@@ -75,6 +74,7 @@ export default hopeTheme({
   encrypt: {
     config: {
       "/demo/encrypt.html": ["1234"],
+      "/encrypt/": ["kuriyaha666"],
     },
   },
 
@@ -84,12 +84,13 @@ export default hopeTheme({
   },
 
   // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
-  // hotReload: true,
+  hotReload: true,
 
   // 在这里配置主题提供的插件
   plugins: {
     blog: true,
 
+    searchPro: true,
     // 启用之前需安装 @waline/client
     // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
     // comment: {
@@ -124,7 +125,7 @@ export default hopeTheme({
                 tag: "Badge",
                 attrs: { type: "tip" },
                 content: "Recommended",
-              };
+              }
           },
         },
       ],
@@ -230,4 +231,4 @@ export default hopeTheme({
     //   },
     // },
   },
-});
+})

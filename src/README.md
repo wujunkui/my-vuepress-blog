@@ -7,7 +7,7 @@ title: 胡思乱想实验室
 heroImage: false
 heroText: 胡思乱想实验室
 heroFullScreen: false
-tagline: 你可以在这里放置你的口号与标语
+tagline: 胡思乱想，然后实现你的奇思妙想。
 projects:
   - icon: link
     name: 啥都有导航

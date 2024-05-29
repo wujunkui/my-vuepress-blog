@@ -1,4 +1,4 @@
-import { sidebar } from "vuepress-theme-hope";
+import { sidebar } from "vuepress-theme-hope"
 
 export default sidebar({
   "/": [
@@ -14,9 +14,14 @@ export default sidebar({
       text: "文章",
       icon: "book",
       prefix: "posts/",
-      link: "posts/",
       children: "structure",
     },
-    "intro"
+    {
+      text: "画画",
+      icon: "book",
+      prefix: "draw/",
+      children: "structure",
+    },
+    "intro",
   ],
-});
+})

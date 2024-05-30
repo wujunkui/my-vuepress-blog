@@ -2,5 +2,5 @@
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.semi": false,
-  "unocss.include": ["**/*.md"]
+  "prettier.printWidth": 100
 }

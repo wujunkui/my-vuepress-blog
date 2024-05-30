@@ -18,6 +18,8 @@ export default hopeTheme({
 
   docsDir: "src",
 
+  // 暗黑模式
+  darkmode: "toggle",
   // 导航栏
   navbar,
 
@@ -33,6 +35,7 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
+    avatar: "/assets/images/avatar.png",
     description: "成为一个有趣的人。",
     intro: "/intro.html",
     medias: {

@@ -1,14 +1,14 @@
 ---
-icon: book
+icon: file
 category:
   - python开发
-
 ---
-# Windows 下Poetry更改虚拟环境路径
 
-## 修改虚拟环境位置
+# Windows 下 Poetry 更改虚拟环境路径
 
-```bash
+修改虚拟环境位置
+
+```shell
 $ poetry config cache-dir F:\cache
 
 $ poetry config --list
